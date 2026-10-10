@@ -13,5 +13,34 @@ html,body{
 main{
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: #d5ff40;
 }
+
+nav{
+    
+    height: 80px 100%;
+    padding: 60px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+
+}
+
+nav h2{
+    font-size: 60px;
+    font-weight: 500;
+}
+nav a{
+    font-size: 39px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* display : flex is used    */
